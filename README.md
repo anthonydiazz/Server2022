@@ -98,6 +98,8 @@ Add the DHCP Server role and tools
 
 ![Install Requests](./ad_prj/setupDHCP.png)
 
+Configuring the DHCP Scope with these Configurations
+
 - Start IP:       192.168.0.100
 - End IP:         192.168.0.200
 - Subnet Mask:    255.255.255.0
@@ -106,6 +108,8 @@ Add the DHCP Server role and tools
 - Domain:         anthonytech.com
 - Exclusions:     192.168.0.100 - 192.168.0.110
 - Lease Duration: 7 days
+
+Images of the configurations are down below 
 
 
 ![Install Requests](./ad_prj/iprange.png)
