@@ -40,4 +40,9 @@ The main purpose of this Server is for it to act as a router, dhcp server , and 
 - Open Server Manager and Install the following roles:
 
 - Active Directory
+
 ![Install Requests](./ad_prj/activedirectorydownload.png)
+
+Once Installed You will then have to create your domain which in this case mine is anthonytech.com 
+
+![Install Requests](./ad_prj/creatingdomain.png)
