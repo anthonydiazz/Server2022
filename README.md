@@ -18,13 +18,26 @@ The environment consists of:
 - Download the Windows Server 2022 ISO and create a new VM in VirtualBox
 - Assign at least 2 CPUs, 4GB RAM, and 60GB disk space (dynamically allocated)
 
-### Setting Up Network Adapter - TO CONNECT TO THE INTERNET  
+### Setting Up Network Adapter - To Connect To The Internet  
+
 ![Install Requests](./ad_prj/part1.png)
 
 
-### Setting Up Internal Adapter - Help end users to connect to the server 
+### Setting Up Internal Adapter - Help End Users to connect to the Server 
+
 ![Install Requests](./ad_prj/part2.png)
 
 
 ### Step 2 : Setting Up the Internal Network with a static IP Address 
+- This will enable communication with user VMs
+
 ![Install Requests](./ad_prj/x_internal.png)
+
+
+### Step 3 : Install Core Roles 
+
+The main purpose of this Server is for it to act as a router, dhcp server , and domain setup for anthonytech.com
+- Open Server Manager and Install the following roles:
+
+- Active Directory
+![Install Requests](./ad_prj/activedirectorydownload.png)
