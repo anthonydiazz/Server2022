@@ -13,3 +13,8 @@ The environment consists of:
 
 - Use of RSAT tools for remote helpdesk operations and GPO enforcement
 
+##  Part 1: Setting up the Windows Server 2022 VM
+### Step 1: Create the Server VM in VirtualBox and Configure Network Adapters 
+- Download the Windows Server 2022 ISO and create a new VM in VirtualBox
+- Assign at least 2 CPUs, 4GB RAM, and 60GB disk space (dynamically allocated)
+
