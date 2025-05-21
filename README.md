@@ -21,4 +21,4 @@ The environment consists of:
 ### CONFIGURE Network Adapters 
 
 
-![Install Requests](./active directory prj/part1.png)
+![Install Requests](./ad_prj/part1.png)
