@@ -12,7 +12,9 @@ By the end of this part, the server will:
 
 - Route internal clients to the internet using Remote Access Services (RAS)
 
-- This lab simulates a typical small office domain controller environment, ready for client integration and user management.
+- Create two User accounts through Active Directory 
+
+This lab simulates a typical small office domain controller environment, ready for client integration and user management.
 
 
 
@@ -143,10 +145,58 @@ Images of the configurations are down below
 ![Install Requests](./ad_prj/DHCPactivated.png)
 
 
+### Step 5 - Create Domain Users and Organizational Units 
 
-## To Conclude Part 1 > The following infrastructure is in place: 
+After setting up Active Directory Domain Services, proceed to create specific user accounts and organize them into appropriate Organizational Units (OUs) for better management and policy application.
 
-By the end of Part 1, the following infrastructure is in place:
+
+#### Step 5.1 : Create Organizational Units 
+
+1. Open Active Directory Users and Computers (ADUC).
+2. Right-click on your domain name (anthonytech.com) and select New > Organizational Unit.
+
+![Install Requests](./ad_prj/f14.png)
+
+
+3. Name the OU IT and click OK.
+
+![Install Requests](./ad_prj/f15.png)
+
+
+4. Repeat the process to create another OU named Finance
+
+
+![Install Requests](./ad_prj/f16.png)
+
+
+#### Step 5.1 : Create User Accounts
+Helpdesk User:
+
+1. In Active Direcotory , navigate to Users
+2. Right click on the Admin account and select copy
+
+![Install Requests](./ad_prj/f11.png)
+
+3. Enter the following details 
+  - First name: Helpdesk
+  - User logon name: helpdesk@anthonytech.com
+
+![Install Requests](./ad_prj/f12.png)
+
+
+
+Bruce Wayne User: 
+1. Navigate to Users 
+2. Right click on the User folder and select > New > User
+
+![Install Requests](./ad_prj/f13.png)
+
+And do the same process as if you were creating the Helpdesk account earlier
+
+
+## To Conclude Part 1: 
+
+The following infrastructure is in place:
 
 - Server 2022 VM with dual network adapters
 
@@ -159,6 +209,10 @@ By the end of Part 1, the following infrastructure is in place:
 - DHCP scope configured and authorized
 
 - Clients will be able to connect internally and reach the internet through the server
+
+- Two User Accounts were create, First one is the Helpdesk User which will have administrative roles and be able to help end users and clients , and save us the time to have to log into the server 2022 account evertime we have to configure something minor
+
+- And the user account Bruce Wayne , which will simulate just a normal end user 
 
 
 
