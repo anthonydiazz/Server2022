@@ -98,14 +98,14 @@ Add the DHCP Server role and tools
 
 ![Install Requests](./ad_prj/setupDHCP.png)
 
-Start IP:       192.168.0.100
-End IP:         192.168.0.200
-Subnet Mask:    255.255.255.0
-Default Gateway:192.168.0.1
-DNS Server:     192.168.0.1
-Domain:         anthonytech.com
-Exclusions:     192.168.0.100 - 192.168.0.110
-Lease Duration: 7 days
+- Start IP:       192.168.0.100
+- End IP:         192.168.0.200
+- Subnet Mask:    255.255.255.0
+- Default Gateway:192.168.0.1
+- DNS Server:     192.168.0.1
+- Domain:         anthonytech.com
+- Exclusions:     192.168.0.100 - 192.168.0.110
+- Lease Duration: 7 days
 
 
 ![Install Requests](./ad_prj/iprange.png)
