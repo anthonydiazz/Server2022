@@ -39,7 +39,8 @@ The environment consists of:
 The main purpose of this Server is for it to act as a router, dhcp server , and domain setup for anthonytech.com
 - Open Server Manager and Install the following roles:
 
-- Active Directory
+- 
+#### Step 4 - Installing Active Directory
 
 ![Install Requests](./ad_prj/activedirectorydownload.png)
 
@@ -50,3 +51,60 @@ Once Installed You will then have to create your domain which in this case mine 
 To verify that you have installed AD, you can type on the Search bar for Windows administrative tools and it should be in that folder 
 
 ![Install Requests](./ad_prj/ADinstalled.png)
+
+
+
+#### Step 5 - Installing Remote Access 
+
+![Install Requests](./ad_prj/RASinstalaltion.png)
+
+
+This will allow our clients (End Users to connect to the Internet) through this service 
+![Install Requests](./ad_prj/configurenat.png)
+
+
+#### Step 6 - Installing DHCP 
+
+
+![Install Requests](./ad_prj/installDHCP.png)
+
+
+
+![Install Requests](./ad_prj/setupDHCP.png)
+
+
+
+![Install Requests](./ad_prj/iprange.png)
+
+
+
+![Install Requests](./ad_prj/DHCPexclusions.png)
+
+
+
+![Install Requests](./ad_prj/DG.png)
+
+
+
+
+![Install Requests](./ad_prj/DNS.png)
+
+
+
+![Install Requests](./ad_prj/LeastDuration.png)
+
+
+
+![Install Requests](./ad_prj/Authorize.png)
+
+
+
+![Install Requests](./ad_prj/DHCPactivated.png)
+
+
+
+
+
+
+
+
