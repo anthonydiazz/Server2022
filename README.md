@@ -18,3 +18,7 @@ The environment consists of:
 - Download the Windows Server 2022 ISO and create a new VM in VirtualBox
 - Assign at least 2 CPUs, 4GB RAM, and 60GB disk space (dynamically allocated)
 
+### CONFIGURE Network Adapters 
+
+
+![Install Requests](./active_directory_prj/part1.png)
