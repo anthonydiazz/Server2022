@@ -1,17 +1,20 @@
-# IT Infrastructure : Windows 2022 Domain Setup
-This lab project demonstrates the end-to-end setup of a virtualized IT infrastructure using Windows Server 2022 in VirtualBox. The project simulates a real-world enterprise environment by implementing domain services, DHCP, remote access, and user management through a Helpdesk structure
+# Windowss Server 2022 - Core Infrastructure Setup
+This section covers the foundational setup of a virtualized Windows Server 2022 environment using VirtualBox. The goal is to prepare the server to function as a domain controller, DHCP server, and router, providing core services for a local domain.
 
-The environment consists of:
+By the end of this part, the server will:
+- Be installed and configured with two network adapters (NAT + Internal Network)
 
-- A Windows Server 2022 VM acting as a domain controller, DHCP server, and router
+- Use a static IP for LAN communication
 
-- Two Organizational Units (IT and Finance)
+- Run Active Directory Domain Services (AD DS) for domain creation
 
-- Two domain users (Helpdesk and Bruce Wayne)
+- Offer IP addresses to internal machines via DHCP
 
-- Two Windows 10 client machines joined to the domain
+- Route internal clients to the internet using Remote Access Services (RAS)
 
-- Use of RSAT tools for remote helpdesk operations and GPO enforcement
+- This lab simulates a typical small office domain controller environment, ready for client integration and user management.
+
+
 
 ##  Part 1: Setting up the Windows Server 2022 VM
 
