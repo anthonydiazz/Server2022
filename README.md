@@ -46,3 +46,7 @@ The main purpose of this Server is for it to act as a router, dhcp server , and 
 Once Installed You will then have to create your domain which in this case mine is anthonytech.com 
 
 ![Install Requests](./ad_prj/creatingdomain.png)
+
+To verify that you have installed AD, you can type on the Search bar for Windows administrative tools and it should be in that folder 
+
+![Install Requests](./ad_prj/ADinstalled.png)
