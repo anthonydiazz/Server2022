@@ -210,9 +210,9 @@ The following infrastructure is in place:
 
 - Clients will be able to connect internally and reach the internet through the server
 
-- Two User Accounts were create, First one is the Helpdesk User which will have administrative roles and be able to help end users and clients , and save us the time to have to log into the server 2022 account evertime we have to configure something minor
+- Two User Accounts were created, First one is the Helpdesk User which will have administrative roles and be able to help end users and clients this account will be in the OU folder of IT , and save us the time to have to log into the server 2022 account evertime we have to configure something minor
 
-- And the user account Bruce Wayne , which will simulate just a normal end user 
+- And the user account Bruce Wayne , which will simulate just a normal end user which will be in the OU folder of Finance
 
 
 
