@@ -215,5 +215,9 @@ The following infrastructure is in place:
 - And the user account Bruce Wayne , which will simulate just a normal end user which will be in the OU folder of Finance
 
 
+### If you would like to go to Part 2 ➡️ [Continue to Part 2: Client VM Setup & GPO Enforcement](https://github.com/anthonydiazz/ClientVMs)
+
+
+
 
 
